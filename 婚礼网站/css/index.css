@@ -1,0 +1,161 @@
+
+.top{
+    width:100%;
+    height: 20px;
+    background-color: #333;
+    opacity: 0.8;
+}
+.nav{
+    margin: 45px auto;
+    width: 1001px;
+    height: 50px;
+    background-color: rgb(194, 131, 38);
+    opacity: 0.8;
+    position: relative;
+    border-radius: 10px;
+}
+body,ul,li{
+    margin: 0;
+    padding: 0;
+    /* height: 1000px; */
+    /* background-color: rgb(194, 131, 38); */
+}
+.per-data{
+    width: 1001px;
+    height: 40px;
+    margin: 10px 290px;
+}
+.per-data p{
+    font-size: 18px;
+    margin-left: 711px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+/* 一级菜单 */
+
+.clearfixed::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+/* .nav-list{
+    width: 1001px;
+    height: 50px;
+} */
+.nav-list>li{
+    float: left;
+    width: 143px;
+    height: 50px;
+}
+.nav-list>li>a{
+    display: table;
+    width: 143px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    color:#fff;
+    position: relative;
+    z-index: 9;
+}
+.nav-list>li>a:hover{
+    background-color: #fff;
+    color:red;
+    border: 1px solid #c9c9c9;
+    border-bottom: none;
+}
+
+/* 二级菜单 */
+.item{
+    width: 250px; 
+    border:1px solid #c9c9c9; 
+    position: absolute;
+    top:50px;
+    z-index: 1;
+    display: none;
+}
+.item-list{
+    /* border:1px solid #c9c9c9; */
+    margin-left: 30px;
+}
+.item-list>li{
+    height: 30px;
+}
+.item-list>li>a{
+    font-size: 15px;
+    line-height: 30px;
+}
+.item-list>li>a:hover{
+    text-decoration: underline;
+    font-size: 16px;
+}
+.nav-list .show .item{
+    display: block;
+}
+.nav-list>.show>a{
+    background-color: #fff;
+    color:red;
+    border: 1px solid #c9c9c9;
+    border-bottom: none;
+}
+
+.wrapper{
+    width: 1001px;
+    height: 500px;
+    border: 10px double rgb(194, 131, 38);
+    margin: 30px auto;
+    overflow: hidden;
+    position: relative;
+}
+.imgbox{
+    width: 4004px;
+    font-size: 0;
+    position: absolute;
+    left:0;
+}
+.imgbox li{
+    display: inline-block;
+}
+.imgbox img{
+    width: 1001px;
+    height: 500px;
+}
+
+.btn{
+    position:absolute;
+    top:50%;
+    width: 100%;
+}
+.btn a{
+    position: absolute;
+    height: 20px;
+    width:10px;
+    margin-top: -20px;
+    padding:10px;
+    background: rgba(0, 0, 0, 0.4);
+    color:#fff;
+}
+.btn .prevbtn{
+    left:0;
+}
+.btn .nextbtn{
+    right: 0;
+}
+
+
+.item5{
+    position: absolute;
+    width: 10px;
+    height: 30px;
+    /* display: inline-block; */
+    top:15px;
+    margin-left: 10px;
+}
+
+.positionsvg{
+    position: relative;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta charset="viewport" content="width=device-width,initial-scale=1.0">
+        <title>首页</title>
+        <link rel="stylesheet" href="../css/index.css">
+    </head>
+    <body>
+       <!-- 最顶部 -->
+       <div class="top"></div> 
+       <!-- 导航栏 -->
+       <div class="nav clearfixed">
+        <ul class="nav-list" id="nav-LIST">
+            <li class="">
+                <a href="">首页</a>
+            </li>
+            <li class="positionsvg">
+                <a href="">案例欣赏</a>
+                <div class="item5 item3">
+                    <svg width="25" height="25" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0" y="0" height="20" width="5" fill="#fff">
+                            <animate attributeName="height" values="6;20;6" begin="0s" dur="0.4s" repeatCount="indefinite"/>
+                            <animate attributeName="y" values="7;0;7" begin="0s" dur="0.4s" repeatCount="indefinite"/>
+                        </rect>
+                        <rect x="7" y="0" height="20" width="5" fill="#fff">
+                            <animate attributeName="height" values="6;20;6" begin="0.2s" dur="0.4s" repeatCount="indefinite"/>
+                            <animate attributeName="y" values="7;0;7" begin="0.2s" dur="0.4s" repeatCount="indefinite"/>
+                        </rect>
+                        <rect x="14" y="0" height="20" width="5" fill="#fff">
+                            <animate attributeName="height" values="6;20;6" begin="0.4s" dur="0.4s" repeatCount="indefinite"/>
+                            <animate attributeName="y" values="7;0;7" begin="0.4s" dur="0.4s" repeatCount="indefinite"/>
+                        </rect>
+                    </svg>
+                </div>
+            </li>
+            <li>
+                <a href="">高端定制</a>
+                <div class="item">
+                  <ul class="item-list">
+                      <li>
+                          <a href="" target="_blank">选项卡</a>
+                      </li>
+                  </ul>
+                </div>
+            <li class="">
+                <a href="">商城</a>
+            </li>
+            <li>
+                <a href="">酒店推荐</a>
+            </li>
+            <li>
+                <a href="">我的订单</a>
+            </li>
+            <li>
+                <a href="">联系我们</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- 轮播图 -->
+        <div class="wrapper">
+            <ul class="imgbox">
+                <li><a href="javascript:;" title="汉氏婚礼"><img src="../images/image3.jpg" alt=""></a></li>
+                <li><a href="javascript:;" title="中式婚礼"><img src="../images/image2.jpg" alt=""></a></li>
+                <li><a href="javascript:;"><img src="../images/image4.jpg" alt=""></a></li>
+                <li><a href="javascript:;"><img src="../images/image3.jpg" alt=""></a></li>
+            </ul>
+            <div class="btn">
+                <a href="javascript:;" class="prevbtn">&lt;</a>
+                <a href="javascript:;" class="nextbtn">&gt;</a>
+            </div>
+        </div>
+    <script src="../jquery-3.4.1.js"></script>
+    <script src="../js/index.js"></script>
+    </body>
+</html>
